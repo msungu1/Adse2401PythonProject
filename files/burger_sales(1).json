@@ -1,0 +1,26 @@
+[
+  {
+    "id": 7,
+    "date": "2021-03-03",
+    "location": "Westlands",
+    "burgers_sold": 312
+  },
+  {
+    "id": 10,
+    "date": "2021-03-04",
+    "location": "Nairobi CBD",
+    "burgers_sold": 389
+  },
+  {
+    "id": 5,
+    "date": "2021-03-03",
+    "location": "Limuru",
+    "burgers_sold": 252
+  },
+  {
+    "id": 8,
+    "date": "2021-03-04",
+    "location": "Ngong Road",
+    "burgers_sold": 289
+  }
+]

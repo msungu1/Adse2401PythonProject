@@ -1,0 +1,20 @@
+[
+    {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "price": 20000
+    },
+    {
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "price": 22000
+    },
+    {
+        "make": "Ford",
+        "model": "Focus",
+        "year": 2018,
+        "price": 18000
+    }
+]
