@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da5ddfdf-2425-440d-81d6-baec9cad6a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sess09_multiple_func_arg_regex/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess09_multiple_func_arg_regex/formal_positional_keywords.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess09_multiple_func_arg_regex/regex_validate_email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess09_multiple_func_arg_regex/regex_validate_phone_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session07_generators/class_decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session08_python_tkinter_gui/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session08_python_tkinter_gui/login_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session08_python_tkinter_gui/tkinter_helloworldg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session08_python_tkinter_gui/tkinter_simple_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sess12_code_introspection_and_testing/silenium _web_ search.py" beforeDir="false" afterPath="$PROJECT_DIR$/sess12_code_introspection_and_testing/silenium _web_ search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,48 +31,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Doctests in regex_validate_email.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_name.executor&quot;: &quot;Run&quot;,
-    &quot;Python.circle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.class_decorator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_write_read_text_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo_circle_sphere.executor&quot;: &quot;Run&quot;,
-    &quot;Python.helloworld.executor&quot;: &quot;Run&quot;,
-    &quot;Python.instance_static_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.iterators_plus_counter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.picke_person_os_module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_Arithmetic_operation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_dictionary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_numeric_types.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_tuples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.read_json_burger_sales.executor&quot;: &quot;Run&quot;,
-    &quot;Python.regex_validate_email.executor&quot;: &quot;Run&quot;,
-    &quot;Python.regex_validate_phone_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sample_set_and_dictionary_comprehensions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sphere.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tkinter_helloworldg.executor&quot;: &quot;Run&quot;,
-    &quot;Python.unpickle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.write_read.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/robert/PythonProjects/Adse2401PythonProject/session05_files/files&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Doctests in regex_validate_email.executor": "Run",
+    "Python.add_name.executor": "Run",
+    "Python.circle.executor": "Run",
+    "Python.class_decorator.executor": "Run",
+    "Python.create_write_read_text_file.executor": "Run",
+    "Python.demo_circle_sphere.executor": "Run",
+    "Python.helloworld.executor": "Run",
+    "Python.instance_static_method.executor": "Run",
+    "Python.iterators_plus_counter.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.picke_person_os_module.executor": "Run",
+    "Python.python_Arithmetic_operation.executor": "Run",
+    "Python.python_dictionary.executor": "Run",
+    "Python.python_function.executor": "Run",
+    "Python.python_list.executor": "Run",
+    "Python.python_numeric_types.executor": "Run",
+    "Python.python_strings.executor": "Run",
+    "Python.python_tuples.executor": "Run",
+    "Python.read_json_burger_sales.executor": "Run",
+    "Python.regex_validate_email.executor": "Run",
+    "Python.regex_validate_phone_number.executor": "Run",
+    "Python.sample_set_and_dictionary_comprehensions.executor": "Run",
+    "Python.silenium _web_ search.executor": "Run",
+    "Python.sphere.executor": "Run",
+    "Python.tkinter_helloworldg.executor": "Run",
+    "Python.unpickle.executor": "Run",
+    "Python.write_read.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/robert/PythonProjects/Adse2401PythonProject/session05_files/files",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/session05_files/files" />
