@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5ddfdf-2425-440d-81d6-baec9cad6a55" name="Changes" comment="" />
+    <list default="true" id="da5ddfdf-2425-440d-81d6-baec9cad6a55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sess09_multiple_func_arg_regex/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess09_multiple_func_arg_regex/formal_positional_keywords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess09_multiple_func_arg_regex/regex_validate_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess09_multiple_func_arg_regex/regex_validate_phone_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07_generators/class_decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session08_python_tkinter_gui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session08_python_tkinter_gui/login_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session08_python_tkinter_gui/tkinter_helloworldg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session08_python_tkinter_gui/tkinter_simple_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +42,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Doctests in regex_validate_email.executor&quot;: &quot;Run&quot;,
     &quot;Python.add_name.executor&quot;: &quot;Run&quot;,
     &quot;Python.circle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class_decorator.executor&quot;: &quot;Run&quot;,
     &quot;Python.create_write_read_text_file.executor&quot;: &quot;Run&quot;,
     &quot;Python.demo_circle_sphere.executor&quot;: &quot;Run&quot;,
     &quot;Python.helloworld.executor&quot;: &quot;Run&quot;,
@@ -48,8 +61,11 @@
     &quot;Python.python_strings.executor&quot;: &quot;Run&quot;,
     &quot;Python.python_tuples.executor&quot;: &quot;Run&quot;,
     &quot;Python.read_json_burger_sales.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regex_validate_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regex_validate_phone_number.executor&quot;: &quot;Run&quot;,
     &quot;Python.sample_set_and_dictionary_comprehensions.executor&quot;: &quot;Run&quot;,
     &quot;Python.sphere.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tkinter_helloworldg.executor&quot;: &quot;Run&quot;,
     &quot;Python.unpickle.executor&quot;: &quot;Run&quot;,
     &quot;Python.write_read.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -70,6 +86,7 @@
       <recent name="$PROJECT_DIR$/session05_files/files" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/session05_files/files" />
     </key>
@@ -77,7 +94,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
         <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
       </set>
     </attachedChunks>
@@ -109,7 +125,12 @@
       <workItem from="1764318902465" duration="12000" />
       <workItem from="1764318936252" duration="658000" />
       <workItem from="1764330341420" duration="2904000" />
-      <workItem from="1764348535297" duration="301000" />
+      <workItem from="1764348535297" duration="960000" />
+      <workItem from="1764585151814" duration="4025000" />
+      <workItem from="1764671760287" duration="3244000" />
+      <workItem from="1764760905295" duration="3474000" />
+      <workItem from="1764828192079" duration="523000" />
+      <workItem from="1767536065215" duration="130000" />
     </task>
     <servers />
   </component>
@@ -117,26 +138,31 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$read_json_burger_sales.coverage" NAME="read_json_burger_sales Coverage Results" MODIFIED="1764070282480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session05_files" />
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$python_function.coverage" NAME="python_function Coverage Results" MODIFIED="1763982908729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session4_function_package_constructors" />
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$instance_static_method.coverage" NAME="instance_static_method Coverage Results" MODIFIED="1763986747224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session4_function_package_constructors" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$tkinter_helloworldg.coverage" NAME="tkinter_helloworldg Coverage Results" MODIFIED="1764590314877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session08_python_tkinter_gui" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$regex_validate_phone_number.coverage" NAME="regex_validate_phone_number Coverage Results" MODIFIED="1764763150895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sess09_multiple_func_arg_regex" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$class_decorator.coverage" NAME="class_decorator Coverage Results" MODIFIED="1764586872604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session07_generators" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$python_strings.coverage" NAME="python_strings Coverage Results" MODIFIED="1763465884156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sesso2_python_datatypes" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$unpickle.coverage" NAME="unpickle Coverage Results" MODIFIED="1764069312769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session05_files" />
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$circle.coverage" NAME="circle Coverage Results" MODIFIED="1763724022692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session4_function_package_constructors" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$regex_validate_email.coverage" NAME="regex_validate_email Coverage Results" MODIFIED="1764763795787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sess09_multiple_func_arg_regex" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$sample_set_and_dictionary_comprehensions.coverage" NAME="sample_set_and_dictionary_comprehensions Coverage Results" MODIFIED="1764158871276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session06_comprehensions" />
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$picke_person_os_module.coverage" NAME="picke_person_os_module Coverage Results" MODIFIED="1764069299228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session05_files" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1762946504990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$python_Arithmetic_operation.coverage" NAME="python_Arithmetic_operation Coverage Results" MODIFIED="1763121106267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sesso2_python_datatypes" />
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1763034782201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sess01_python_basic" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$python_list.coverage" NAME="python_list Coverage Results" MODIFIED="1763123565113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sesso2_python_datatypes" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$demo_circle_sphere.coverage" NAME="demo_circle_sphere Coverage Results" MODIFIED="1763726234276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session4_function_package_constructors" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$write_read.coverage" NAME="write_read Coverage Results" MODIFIED="1764072479199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session05_files" />
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$add_name.coverage" NAME="add_name Coverage Results" MODIFIED="1763035728210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sess01_python_basic" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$Doctests_in_regex_validate_email.coverage" NAME="Doctests in regex_validate_email Coverage Results" MODIFIED="1764763648137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sess09_multiple_func_arg_regex" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$python_dictionary.coverage" NAME="python_dictionary Coverage Results" MODIFIED="1763468009772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sesso2_python_datatypes" />
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$create_write_read_text_file.coverage" NAME="create_write_read_text_file Coverage Results" MODIFIED="1764157643510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session05_files" />
-    <SUITE FILE_PATH="coverage/Adse2401PythonProject$sphere.coverage" NAME="sphere Coverage Results" MODIFIED="1763725309070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session4_function_package_constructors" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$iterators_plus_counter.coverage" NAME="iterators_plus_counter Coverage Results" MODIFIED="1764331791554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session07_generators" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$python_numeric_types.coverage" NAME="python_numeric_types Coverage Results" MODIFIED="1763036652768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sesso2_python_datatypes" />
     <SUITE FILE_PATH="coverage/Adse2401PythonProject$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1763380277307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sesso2_python_datatypes" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$read_json_burger_sales.coverage" NAME="read_json_burger_sales Coverage Results" MODIFIED="1764070282480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session05_files" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$python_function.coverage" NAME="python_function Coverage Results" MODIFIED="1763982908729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session4_function_package_constructors" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$instance_static_method.coverage" NAME="instance_static_method Coverage Results" MODIFIED="1763986747224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session4_function_package_constructors" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$circle.coverage" NAME="circle Coverage Results" MODIFIED="1763724022692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session4_function_package_constructors" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$picke_person_os_module.coverage" NAME="picke_person_os_module Coverage Results" MODIFIED="1764069299228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session05_files" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$python_Arithmetic_operation.coverage" NAME="python_Arithmetic_operation Coverage Results" MODIFIED="1763121106267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sesso2_python_datatypes" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1763034782201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sess01_python_basic" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$add_name.coverage" NAME="add_name Coverage Results" MODIFIED="1763035728210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sess01_python_basic" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$create_write_read_text_file.coverage" NAME="create_write_read_text_file Coverage Results" MODIFIED="1764157643510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session05_files" />
+    <SUITE FILE_PATH="coverage/Adse2401PythonProject$sphere.coverage" NAME="sphere Coverage Results" MODIFIED="1763725309070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/session4_function_package_constructors" />
   </component>
 </project>
