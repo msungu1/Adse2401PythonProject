@@ -1,0 +1,21 @@
+<!--the adse2401 sites home page-->
+inherit the code from the base template (base.html)
+{% extends 'base.html' %}
+
+<!--specify the page title-->
+{%block page_title%} Home {% endblock %}
+
+<!--specify the page heading-->
+{%block page_heading %}
+
+Welcome to the ADSE2401 fLASK website
+
+{% endblock %}
+
+<!--specify the page content -->
+
+{%block page_heading %}
+
+<h1>hello world</h1>
+<h2>You are visiting with {{ user_agent }}</h2>
+{% endblock %}

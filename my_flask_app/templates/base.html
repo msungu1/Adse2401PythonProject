@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Adse2401 Flask Site - {% block page_title %}{% endblock %}
+    </title>
+
+    <!-- Main Styles -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+
+    <!-- Page-specific styles -->
+    {% block extra_styles %}{% endblock %}
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <!-- Menu Toggle Button -->
+        <button id="menu-toggle" aria-label="Toggle Menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <ul id="nav-menu">
+            <li>Home</li>
+            <li>About</li>
+            <li>Programs</li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div id="container">
+
+        <!-- Page Heading -->
+        <h1 class="page-heading">
+            {% block heading %}{% endblock %}
+        </h1>
+
+        <!-- Page Content -->
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+
+        <!-- Footer -->
+        <footer class="page-footer">
+            <hr>
+            ADSE2401 Copyright &copy;
+            <span id="currYear"></span>
+            <br>
+            Designed / Powered by
+            <a href="#" target="_blank">robertoo</a>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    <script>
+        document.getElementById("currYear").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>

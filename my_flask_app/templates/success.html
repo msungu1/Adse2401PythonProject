@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block page_title %}Success{% endblock %}
+{% block heading %}Registration Successful{% endblock %}
+
+{% block content %}
+<div class="alert alert-success">
+    <h3>🎉 Congratulations!</h3>
+    <p>Your account has been created successfully.</p>
+</div>
+<a href="{{ url_for('index') }}" class="btn btn-primary">Return to Home</a>
+{% endblock %}

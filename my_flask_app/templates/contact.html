@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block page_title %}Contact Us{% endblock %}
+
+{% block heading %}Contact Us{% endblock %}
+
+{% block content %}
+
+    <p>
+        We’d love to hear from you! Whether you have questions about our programs,
+        need support, or simply want to connect, our team is here to help.
+    </p>
+
+    <h3>Contact Information</h3>
+    <ul>
+        <li><strong>Email:</strong> info@adse2401.edu</li>
+        <li><strong>Phone:</strong> +254 700 123 456</li>
+        <li><strong>Address:</strong> ADSE2401 Learning Center, Nairobi, Kenya</li>
+    </ul>
+
+    <h3>Send Us a Message</h3>
+    <form method="post" action="/contact/">
+        {% csrf_token %}
+        <div>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Send</button>
+        </div>
+    </form>
+
+    <!-- Map Section -->
+    <h3 class="section-heading">Visit us at the location below:</h3>
+    <div class="map-container">
+        <iframe id="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1677.0982879391784!2d36.81121829868429!3d-1.2724556328201155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1bac136cf441%3A0x1891bf6528de50a9!2sEdulink%20International%20College!5e0!3m2!1sen!2ske!4v1749713110715!5m2!1sen!2ske"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+{% endblock %}

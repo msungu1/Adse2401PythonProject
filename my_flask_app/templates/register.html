@@ -1,0 +1,52 @@
+<form method="POST" action="">
+    {{ form.hidden_tag() }}
+
+    <div class="mb-3">
+        {{ form.names.label }} <br/>
+        {{ form.names(class="form-control") }}
+    </div>
+
+    <div class="mb-3">
+        {{ form.birthdate.label }} <br/>
+        {{ form.birthdate(class="form-control") }}
+    </div>
+
+    <div class="mb-3">
+        {{ form.gender.label }} <br/>
+        {% for subfield in form.gender %}
+            <div class="form-check form-check-inline">
+                {{ subfield(class="form-check-input") }}
+                {{ subfield.label(class="form-check-label") }}
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="mb-3">
+        {{ form.phone.label }} <br/>
+        {{ form.phone(class="form-control") }}
+    </div>
+
+    <div class="mb-3">
+        {{ form.email.label }} <br/>
+        {{ form.email(class="form-control") }}
+    </div>
+
+    <div class="mb-3">
+        {{ form.password.label }} <br/>
+        {{ form.password(class="form-control") }}
+    </div>
+
+    <div class="mb-3">
+        {{ form.confirm_password.label }} <br/>
+        {{ form.confirm_password(class="form-control") }}
+    </div>
+
+    <div class="mb-3">
+        {{ form.confirm_password.label }} <br/>
+        {{ form.confirm_password(class="form-control") }}
+    </div>
+
+    <div class="mb-3">
+        {{ form.submit(class="btn btn-primary") }}
+    </div>
+</form>
