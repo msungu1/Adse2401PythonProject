@@ -5,29 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da5ddfdf-2425-440d-81d6-baec9cad6a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my_flask_app/helooflask_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/static/css/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/static/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/static/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/templates/aboutus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/templates/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/templates/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_flask_app/templates/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess14_datebase_intergration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess14_datebase_intergration/db_conn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess14_datebase_intergration/student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess14_datebase_intergration/student2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess14_datebase_intergration/student_GUI_CRAD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess15-python_scraping/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sess15-python_scraping/python_web_scraping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session16_python_pandas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/gdp_unemployment.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/Kmeans_alogarithim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/advertisement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/heirachcal_clustering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/isolation_forest_4_anomally.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/logistic_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/multiple_linear_regr_advert_disc_sale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/naive_bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/polynomial_regr_gdp_unemp;loyment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/random_forest_customer_churn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sess_19_types _of_mechine learning/support_vector_machines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sess17_data_visualization/bars.py" beforeDir="false" afterPath="$PROJECT_DIR$/sess17_data_visualization/bars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sess17_data_visualization/basic_line_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/sess17_data_visualization/basic_line_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session16_pandas/pandas_dataFrame_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/session16_pandas/pandas_dataFrame_intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session16_pandas/pandas_dataframes_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/session16_pandas/pandas_dataframes_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session16_pandas/pandas_siries.py" beforeDir="false" afterPath="$PROJECT_DIR$/session16_pandas/pandas_siries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session16_pandas/pandas_siries_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/session16_pandas/pandas_siries_operation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +55,35 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python tests.Doctests in regex_validate_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Kmeans_alogarithim.executor&quot;: &quot;Run&quot;,
     &quot;Python.add_name.executor&quot;: &quot;Run&quot;,
+    &quot;Python.advertisement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_line_plot.executor&quot;: &quot;Run&quot;,
     &quot;Python.circle.executor&quot;: &quot;Run&quot;,
     &quot;Python.class_decorator.executor&quot;: &quot;Run&quot;,
     &quot;Python.create_write_read_text_file.executor&quot;: &quot;Run&quot;,
     &quot;Python.demo_circle_sphere.executor&quot;: &quot;Run&quot;,
+    &quot;Python.descision_trees.executor&quot;: &quot;Run&quot;,
+    &quot;Python.feature_encoding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.feature_scaling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handling_missing_values.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heirachcal_clustering.executor&quot;: &quot;Run&quot;,
     &quot;Python.helloworld.executor&quot;: &quot;Run&quot;,
     &quot;Python.instance_static_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.isolation_forest_4_anomally.executor&quot;: &quot;Run&quot;,
     &quot;Python.iterators_plus_counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knn.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multiple_linear_regr_advert_disc_sale.executor&quot;: &quot;Run&quot;,
     &quot;Python.multiprocessing_with_block_syncronisation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.outlier_detection_and_handling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_dataFrame_intro.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_dataframes_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_siries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_siries_operation.executor&quot;: &quot;Run&quot;,
     &quot;Python.picke_person_os_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polynomial_regr_gdp_unemp;loyment.executor&quot;: &quot;Run&quot;,
     &quot;Python.python_Arithmetic_operation.executor&quot;: &quot;Run&quot;,
     &quot;Python.python_dictionary.executor&quot;: &quot;Run&quot;,
     &quot;Python.python_function.executor&quot;: &quot;Run&quot;,
@@ -77,6 +92,7 @@
     &quot;Python.python_strings.executor&quot;: &quot;Run&quot;,
     &quot;Python.python_tuples.executor&quot;: &quot;Run&quot;,
     &quot;Python.python_web_scraping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_forest_customer_churn.executor&quot;: &quot;Run&quot;,
     &quot;Python.read_json_burger_sales.executor&quot;: &quot;Run&quot;,
     &quot;Python.regex_validate_email.executor&quot;: &quot;Run&quot;,
     &quot;Python.regex_validate_phone_number.executor&quot;: &quot;Run&quot;,
@@ -85,13 +101,15 @@
     &quot;Python.sphere.executor&quot;: &quot;Run&quot;,
     &quot;Python.student2.executor&quot;: &quot;Run&quot;,
     &quot;Python.student_GUI_CRAD.executor&quot;: &quot;Run&quot;,
+    &quot;Python.support_vector_machines.executor&quot;: &quot;Run&quot;,
+    &quot;Python.svm.executor&quot;: &quot;Run&quot;,
     &quot;Python.tkinter_helloworldg.executor&quot;: &quot;Run&quot;,
     &quot;Python.unpickle.executor&quot;: &quot;Run&quot;,
     &quot;Python.write_read.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/robert/PythonProjects/Adse2401PythonProject/session05_files/files&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/robert/PythonProjects/Adse2401PythonProject/files&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -103,6 +121,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/session05_files/files" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -110,6 +129,126 @@
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/session05_files/files" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.random_forest_customer_churn">
+    <configuration name="Kmeans_alogarithim" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Adse2401PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sess_19_types _of_mechine learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sess_19_types _of_mechine learning/Kmeans_alogarithim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="heirachcal_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Adse2401PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sess_19_types _of_mechine learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sess_19_types _of_mechine learning/heirachcal_clustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multiple_linear_regr_advert_disc_sale" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Adse2401PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sess_19_types _of_mechine learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sess_19_types _of_mechine learning/multiple_linear_regr_advert_disc_sale.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="polynomial_regr_gdp_unemp;loyment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Adse2401PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sess_19_types _of_mechine learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sess_19_types _of_mechine learning/polynomial_regr_gdp_unemp;loyment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="random_forest_customer_churn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Adse2401PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sess_19_types _of_mechine learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sess_19_types _of_mechine learning/random_forest_customer_churn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.random_forest_customer_churn" />
+        <item itemvalue="Python.multiple_linear_regr_advert_disc_sale" />
+        <item itemvalue="Python.polynomial_regr_gdp_unemp;loyment" />
+        <item itemvalue="Python.heirachcal_clustering" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
