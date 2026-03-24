@@ -1,7 +1,7 @@
 import pickle
 import os
 
-# Path to the 'person_os.txt' file
+# Path to the 'person_os.txt' file unpickle
 file_pathn = os.path.abspath(os.path.join(os.getcwd(), "..", "files", "person_os.txt"))
 
 # List to hold the person objects

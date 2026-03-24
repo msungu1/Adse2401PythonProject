@@ -87,8 +87,10 @@ class RegisterForm(FlaskForm):
         }
     )
 
-         reset = SubmitField(
-            label='Reset',
-             render_kw={
-             "title": "clear",
-             "tabindex": 90,})
+    reset = SubmitField(
+        'Reset',
+        render_kw={
+            "title": "Clear the form",
+            "tabindex": 90
+        }
+    )

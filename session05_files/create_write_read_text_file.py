@@ -28,9 +28,9 @@ print(f"file_directory is {file_directory}")
 
 # specify and display the file path and name of the  file to be created
 file_path = os.path.join(file_directory, "hello.txt")
-
+#
 # specify the text/content to be written to the file using a hard-coded/user-input string
-# content =input("please🙏 enter the text to write to the file: ")
+content =input("please🙏 enter the text to write to the file: ")
 
 content = "Hello 👋 from text files in python"
 
@@ -49,3 +49,4 @@ def read_from_file(path):
         except Exception as e:
             print(f"the error  is from  {path}:\n{e}")
 
+read_from_file(file_path)

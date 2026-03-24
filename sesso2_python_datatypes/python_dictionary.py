@@ -28,32 +28,32 @@ phone_no = student.pop("phone_no", "Not Specified")
 print(f"The phone number in student dictionary is:\n{phone_no}")
 
 # remove and display the contents of the last key-value pair in the student dictionary
-print(f"The last key-value pair removed from student dictionary is:\n{student.popitem()}")
+# print(f"The last key-value pair removed from student dictionary is:\n{student.popitem()}")
 
 # Update/modify and display the contents of the student dictionary
-student.update({"age": 21, "grade": "A", "phone": "07123456", "favorite_color": "blue"})
-print(f"The updated student dictionary is:\n{student.items()}")
+# student.update({"age": 21, "grade": "A", "phone": "07123456", "favorite_color": "blue"})
+# print(f"The updated student dictionary is:\n{student.items()}")
 
 # create a copy of the student dictionary
-copy_of_student = student.copy()
-print(f"The content of the copied student dictionary is:\n{copy_of_student}")
-
+# copy_of_student = student.copy()
+# print(f"The content of the copied student dictionary is:\n{copy_of_student}")
+#
 # fetch and return the value associated with a given key
 # if not found, assign it with a default value
-major = student.setdefault("major", "Software Engineering")
-print(f"The major in student dictionary is:\n{major}")
+# major = student.setdefault("major", "Software Engineering")
+# print(f"The major in student dictionary is:\n{major}")
 
 # create and display a new dictionary for the keys of an existing dictionary
 # dict.fromkeys() creates a new dictionary with given keys and default values
-new_dict = dict.fromkeys(student.keys(), "N/A")
-print(f"A new dictionary created from the keys of 'student' with default values:\n{new_dict}")
+# new_dict = dict.fromkeys(student.keys(), "N/A")
+# print(f"A new dictionary created from the keys of 'student' with default values:\n{new_dict}")
 
 # display the remaining key-value pairs in the student dictionary
-print(f"The remaining key-value pairs in student dictionary are:\n{student}")
+# print(f"The remaining key-value pairs in student dictionary are:\n{student}")
 
 # find out and display whether a given key exists/is present in a dictionary
-key_to_check = "grade"
-if key_to_check in student:
-    print(f"Yes, the key '{key_to_check}' exists in the student dictionary with value: {student[key_to_check]}")
-else:
-    print(f"No, the key '{key_to_check}' does not exist in the student dictionary.")
+# key_to_check = "grade"
+# if key_to_check in student:
+#     print(f"Yes, the key '{key_to_check}' exists in the student dictionary with value: {student[key_to_check]}")
+# else:
+#     print(f"No, the key '{key_to_check}' does not exist in the student dictionary.")

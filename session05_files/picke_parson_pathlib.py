@@ -1,35 +1,51 @@
-
-
+import os
 import pickle
-import pathlib
 from person import Person
 
-# Prompt the user for their name and age
-name = input("Enter your name: \n")
-age = input("Enter your age: \n")
+# Ensure the 'files' directory exists (one level above current working directory)
+def get_files_directory():
+    files_dir = os.path.abspath(os.path.join(os.getcwd(), "..", "files"))
+    os.makedirs(files_dir, exist_ok=True)
+    return files_dir
 
-# Create/instantiate a Person object
-user = Person(name, age)
+# Save a Person object to the file
+def save_person(person, file_path):
+    with open(file_path, "ab") as file:  # append binary mode
+        pickle.dump(person, file)
+    print(f"Person object saved: {person.name}, {person.age}")
 
-# Ensure the 'files' directory exists
-files_dir = os.path.abspath(os.path.join(os.getcwd(), "..", "files"))
-os.makedirs(files_dir, exist_ok=True)
+# Load all Person objects from the file
+def load_people(file_path):
+    people = []
+    with open(file_path, "rb") as file:
+        try:
+            while True:
+                person_obj = pickle.load(file)
+                people.append(person_obj)
+        except EOFError:
+            pass
+    return people
 
-# Path to the file
-file_path = os.path.join(files_dir, "person_os.txt")
+# Main program
+if __name__ == "__main__":
+    # Prompt the user for their name and age
+    name = input("Enter your name: \n")
+    age = input("Enter your age: \n")
 
-# Display the path
-print(f"Path to the 'person_os.txt' file is:\n{file_path}")
+    # Create a Person object
+    user = Person(name, age)
 
-# Pickle the person object (append mode)
-with open(file_path, "ab") as file:
-    pickle.dump(user, file)
+    # Get the files directory and file path
+    files_dir = get_files_directory()
+    file_path = os.path.join(files_dir, "person_os.txt")
 
-# Read back the last stored object (for verification)
-with open(file_path, "rb") as file:
-    try:
-        while True:
-            person_obj = pickle.load(file)
-            print(f"Loaded Person: {person_obj.name}, {person_obj.age}")
-    except EOFError:
-        pass
+    # Display the path
+    print(f"Path to the 'person_os.txt' file is:\n{file_path}")
+
+    # Save the Person object
+    save_person(user, file_path)
+
+    # Load and display all stored Person objects
+    print("\nStored Person objects:")
+    for person in load_people(file_path):
+        print(f"- {person.name}, {person.age}")

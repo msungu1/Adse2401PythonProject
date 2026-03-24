@@ -78,4 +78,3 @@ match score:
         print("You passed, but more practice is needed.")
     case _:
         print("Don't give up! Study harder and try again.")
-m

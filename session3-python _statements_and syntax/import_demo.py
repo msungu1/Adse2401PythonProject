@@ -8,3 +8,8 @@ username = input("What is your name? ")
 
 # use the function from the grretings module to great the user
 print (greet(username))
+
+usernames = input("whats your second name? ")
+
+print(f"hello your second name is {usernames} thanks for you time")
+

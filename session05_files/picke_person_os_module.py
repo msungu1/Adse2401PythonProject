@@ -1,7 +1,7 @@
 from pathlib import Path
 import pickle
 
-# Define the Person class (if not already in person.py)
+# Define the Person class (if not already in person.py) pickle
 class Person:
     def __init__(self, name, age):
         self.name = name
